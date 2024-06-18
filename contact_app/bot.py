@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.environ.get("7414808495:AAEoRe-O9fJfcHcSkUUsxuR2Brc6n9c0lpw")
-ID = os.environ.get("1038108849")
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+ID = os.environ.get("ADMIN_ID")
 
 bot = Bot(token=TOKEN)
 
