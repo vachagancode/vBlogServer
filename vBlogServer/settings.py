@@ -30,7 +30,7 @@ DEBUG = True
 
 # DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://j5k39kvh18.execute-api.us-west-2.amazonaws.com/', 'localhost']
 # os.environ.get("ALLOWED_HOSTS").split(" ")
 
 # Application definition
